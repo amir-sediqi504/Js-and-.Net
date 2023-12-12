@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "tql0SKfw3zEDDbHTGwOhcB7kUu+BItmhELA6mzhl8G0=",
+  "Hash": "FbM3eCCKlk+N9sUncgVh+SWmH45TeVEO44EoFHCT7hM=",
   "Source": "ToDoApi",
   "BasePath": "_content/ToDoApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ToDoApi\\wwwroot",
+      "Source": "ToDoApi",
+      "ContentRoot": "C:\\Users\\amirs\\Desktop\\Riktiga-Projekt\\ToDoApi\\ToDoApi\\wwwroot\\",
+      "BasePath": "_content/ToDoApi",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [
     {
       "Identity": "C:\\Users\\amirs\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
@@ -64,6 +72,63 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\amirs\\Desktop\\Riktiga-Projekt\\ToDoApi\\ToDoApi\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ToDoApi.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\amirs\\Desktop\\Riktiga-Projekt\\ToDoApi\\ToDoApi\\wwwroot\\css\\StyleSheet.css",
+      "SourceId": "ToDoApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\amirs\\Desktop\\Riktiga-Projekt\\ToDoApi\\ToDoApi\\wwwroot\\",
+      "BasePath": "_content/ToDoApi",
+      "RelativePath": "css/StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StyleSheet.css"
+    },
+    {
+      "Identity": "C:\\Users\\amirs\\Desktop\\Riktiga-Projekt\\ToDoApi\\ToDoApi\\wwwroot\\index.html",
+      "SourceId": "ToDoApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\amirs\\Desktop\\Riktiga-Projekt\\ToDoApi\\ToDoApi\\wwwroot\\",
+      "BasePath": "_content/ToDoApi",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\amirs\\Desktop\\Riktiga-Projekt\\ToDoApi\\ToDoApi\\wwwroot\\js\\site.js",
+      "SourceId": "ToDoApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\amirs\\Desktop\\Riktiga-Projekt\\ToDoApi\\ToDoApi\\wwwroot\\",
+      "BasePath": "_content/ToDoApi",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     }
   ]
 }
